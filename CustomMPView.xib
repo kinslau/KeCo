@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomMPView" customModule="KeCo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="339"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3SR-kE-Ali">
+                    <rect key="frame" x="0.0" y="0.0" width="341" height="339"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3SR-kE-Ali" secondAttribute="trailing" id="0ST-y1-OOC"/>
+                <constraint firstItem="3SR-kE-Ali" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4md-vi-y8M"/>
+                <constraint firstAttribute="bottom" secondItem="3SR-kE-Ali" secondAttribute="bottom" id="KbB-bv-7pF"/>
+                <constraint firstItem="3SR-kE-Ali" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZO5-LS-jbL"/>
+                <constraint firstItem="3SR-kE-Ali" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eNW-tt-YyN"/>
+                <constraint firstAttribute="trailing" secondItem="3SR-kE-Ali" secondAttribute="trailing" id="mF9-Sc-QJM"/>
+                <constraint firstItem="3SR-kE-Ali" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sMA-8a-g6i"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backView" destination="3SR-kE-Ali" id="4v0-9z-CXM"/>
+            </connections>
+            <point key="canvasLocation" x="455.5" y="226.5"/>
+        </view>
+    </objects>
+</document>
